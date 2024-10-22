@@ -27,7 +27,7 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-        setContentView(R.layout.activity_text)
+        setContentView(R.layout.activity_text) // 一共8个activity文件，包括四种布局练习和text练习
 
     }
 }
