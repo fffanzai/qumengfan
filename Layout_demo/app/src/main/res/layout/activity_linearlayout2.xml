@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:showDividers="middle">
+    <!--        vertical 是指布局竖直排序//horizontal 是水平排列-->
+
+
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        tools:ignore="Suspicious0dp" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="100dp"
+        android:background="#f0f0" />
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:background="#fff000" />
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="100dp"
+        android:background="#f0f0" />
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+
+        android:background="#ff55f5" />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#e50c0c"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="#ffc0cb" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="#0000ff" />
+    </LinearLayout>
+</LinearLayout>
